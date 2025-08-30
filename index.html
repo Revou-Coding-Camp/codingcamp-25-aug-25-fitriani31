@@ -1,11 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F-Restoran Khas Jawa Timur</title>
+  
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JS -->
+  <script src="js/script.js" defer></script>
 </head>
 <body>
-    
+    <hr>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body border-bottom">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png" alt="Logo" height="40px" width="70px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active border" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link border" href="#profile">Our Profile</a></li>
+        <li class="nav-item"><a class="nav-link border" href="#portofolio">Portofolio</a></li>
+        <li class="nav-item"><a class="nav-link border" href="#message">Message Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="profile">
+    <div class="container my-5 text-center intro">
+        <h2>Hi Fitri, Welcome To Website</h2>
+        <h6>Ini adalah website latihan pertama</h6>
+    </div>
+    <div class="banner">
+        <img src="banner.png" alt="" width="400px" height="300px">
+</div>
+<section class="container my-4">
+    <div class="row">
+        <div class="col-lg-8 mx-auto about">
+      <p><b>F-Restoran Khas Jawa Timur</b> adalah rumah makan yang menyajikan cita rasa autentik dari berbagai daerah di Jawa Timur. Berdiri dengan semangat melestarikan kuliner nusantara, kami menghadirkan pengalaman makan yang tidak hanya mengenyangkan, tetapi juga membawa kenangan akan kampung halaman. Dengan bahan baku segar dan racikan bumbu khas, setiap hidangan kami diolah dengan penuh cinta dan kualitas terbaik.</p>
+      <h4>Visi</h4>
+      <p>Menjadi restoran khas Jawa Timur terdepan yang dikenal luas sebagai pelestari cita rasa autentik kuliner tradisional, sekaligus memberikan pelayanan terbaik bagi setiap pelanggan.</p>
+      <h4>Misi</h4>
+      <ol>
+          <li>Menyajikan hidangan khas Jawa Timur dengan rasa autentik.</li>
+          <li>Mengutamakan kebersihan, kenyamanan, dan keramahan.</li>
+          <li>Melestarikan budaya kuliner lintas generasi.</li>
+        </ol>
+    </div>
+</div>
+</section>
+</section>
+
+<hr><hr>
+<section id="portofolio">
+    <div class="tempat">
+        <h2>Our Headquarter</h2>
+    </div>
+    <div class="lingkaran">
+  <div class="lingkaran-item">
+    <div class="lingkaran1"></div>
+    <p>Jakarta</p>
+  </div>
+  <div class="lingkaran-item">
+    <div class="lingkaran1"></div>
+    <p>Bandung</p>
+  </div>
+  <div class="lingkaran-item">
+    <div class="lingkaran1"></div>
+    <p>Surabaya</p>
+  </div>
+</div>  
+</section>
+
+<hr>
+<section id="message">
+    <div class="pesan">
+        <h2>Message Us</h2>
+    </div>
+
+   <div class="form">
+  <form action="" method="post">
+      <table>
+          <tr>
+              <td>Nama :</td>
+              <td><input type="text" class="input-box"></td>
+          </tr>
+          <tr>
+              <td>Tanggal Lahir :</td>
+              <td><input type="date" class="input-box"></td>
+          </tr> 
+          <tr>
+              <td>Jenis Kelamin :</td>
+              <td>
+                  <input type="radio" name="jk"> Laki-Laki 
+                  <input type="radio" name="jk"> Perempuan
+              </td>
+          </tr>
+          <tr>
+              <td>Pesan :</td>
+              <td><textarea class="input-box"></textarea></td>
+          </tr> 
+      </table>
+      <input type="submit" class="submit" value="Submit">
+  </form>
+
+  <div class="box">
+      <h5><b>Current time :</b> Fri Jun 17 20222 11:27:28 GMT+0100</h5> <br>
+      <h5><b>Nama : </b> Harfi Novian</h5>
+      <h5><b>Tanggal Lahir :</b> 01/11/1995</h5>
+      <h5><b>Jenis Kelamin :</b>Laki-Laki</h5>
+      <h5><b>Pesan :</b> Lagi Belajar buat Website</h5>
+  </div>
+</div>
+</section>
+<hr>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
