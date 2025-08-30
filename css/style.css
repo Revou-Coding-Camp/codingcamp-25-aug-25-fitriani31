@@ -1,0 +1,118 @@
+.navbar-nav .nav-link {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.banner{
+    text-align: center;
+    margin-left: 0px;
+}
+.about {
+  text-align: justify;
+}
+
+.tempat h2{
+    margin-left: 40px;
+}
+
+.lingkaran {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center; 
+    gap: 50px; 
+}
+
+.lingkaran1 {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 100%;
+    border: 3px solid black;
+    margin-bottom: 10px; 
+}
+
+.lingkaran-item {
+    text-align: center; 
+}
+.pesan h2{
+    margin-left: 40px;
+}
+.form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; 
+  gap: 20px;   
+  margin: 0 40px; 
+  flex-wrap: wrap; 
+}
+.input-box {
+  width: 100%;  
+  max-width: 380px; 
+  height: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+textarea.input-box {
+  height: 80px; 
+  resize: none; 
+}
+
+.submit {
+  width: 100%; 
+  max-width: 485px;
+  height: 35px;
+}
+
+.box {
+    flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+  border: 2px solid grey;
+  padding: 10px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .intro h2 {
+    font-size: 1.5rem;
+  }
+  .intro h6 {
+    font-size: 0.9rem;
+  }
+  .banner{
+    text-align: center;
+  }
+  .about {
+    text-align: center;
+  }
+  .tempat h2{
+    text-align: left;
+  }
+  .tempat h2{
+    text-align: left;
+  }
+  .form {
+    flex-direction: column;  
+    margin: 0 20px;
+  }
+
+  .submit, 
+  .input-box, 
+  .box {
+    width: 100%; 
+    max-width: 100%;
+  }
+
+  .box {
+    margin-top: 15px;     
+  }
+}
